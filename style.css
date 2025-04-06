@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CDCDCD;
+    color:  #2f4f4f;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #0000CD;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+
+h2 {
+    color: black;
+}
+
+input[type="radion"], input[type="checkbox"] {
+    accent-color: black;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+    width: 50%;
+    padding: 0.3rem;
+    border-radius: 15px ;
+    border-color: #0000CD;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(59, 56, 56);
+}
+
+select {
+    cursor: pointer;
+    background-color: rgb(151, 148, 148);
+    border-radius: 5px;
+    outline: none;
+}
+
+img {
+    width: 12rem;
+    border-radius: 10px;
+}
+
+table {
+    width: 65%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-weight:bold;
+    background-color: #37a7c6; 
+    color: white;
+    padding: 0.3rem;
+}
+
+td {
+    padding: 0.8rem;
+    color: black;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #615d5d44; 
+    color: white;
+}
+
+details {
+    width: 65%;
+    background-color: #37a7c6;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: white;
+    margin: 0.5rem;
+}
+
+ol {
+    margin-left: 1.8rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    width: 65%;
+    border: 2.5px solid #37a7c6;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+legend {
+    color: black;
+    padding: 0 0.8rem;
+}
+
+textarea {
+    background-color: #615d5d44;
+    outline: none;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #615d5d44;
+    color: black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer
+}
+
+footer {
+   background-color: #0000CD;
+   padding: 1.5rem;
+   text-align: center;
+}
+
+.footer_p {
+    font-weight: bold;
+    color: white;
+}
+
+.link {
+    color: wheat;
+}
+
+/*Pagina dois*/
+.titulo_pg2 {
+    padding: 2rem;
+    background-color: #0000CD;
+    color: white;
+    text-align: center;
+}
